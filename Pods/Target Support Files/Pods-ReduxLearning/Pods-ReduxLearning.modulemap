@@ -1,0 +1,6 @@
+framework module Pods_ReduxLearning {
+  umbrella header "Pods-ReduxLearning-umbrella.h"
+
+  export *
+  module * { export * }
+}
