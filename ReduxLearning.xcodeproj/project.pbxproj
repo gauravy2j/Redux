@@ -17,12 +17,14 @@
 		5A0398192C47D2960051FDC1 /* ReduxLearningTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5A0398182C47D2960051FDC1 /* ReduxLearningTests.swift */; };
 		5A0398232C47D2960051FDC1 /* ReduxLearningUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5A0398222C47D2960051FDC1 /* ReduxLearningUITests.swift */; };
 		5A0398252C47D2960051FDC1 /* ReduxLearningUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5A0398242C47D2960051FDC1 /* ReduxLearningUITestsLaunchTests.swift */; };
-		5A0398332C47D36D0051FDC1 /* State.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5A0398322C47D36D0051FDC1 /* State.swift */; };
-		5A0398352C47D3740051FDC1 /* Store.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5A0398342C47D3740051FDC1 /* Store.swift */; };
-		5A0398372C47D3800051FDC1 /* Action.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5A0398362C47D3800051FDC1 /* Action.swift */; };
-		5A0398392C47D38E0051FDC1 /* Reducer.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5A0398382C47D38E0051FDC1 /* Reducer.swift */; };
-		5A03983E2C47D3FE0051FDC1 /* Appetizer.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5A03983D2C47D3FE0051FDC1 /* Appetizer.swift */; };
-		5A3D966D2C4B92F500C231A2 /* AppMiddleware.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5A3D966C2C4B92F500C231A2 /* AppMiddleware.swift */; };
+		5AC632F62C4F94DD000A25EC /* State.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5AC632F52C4F94DD000A25EC /* State.swift */; };
+		5AC632F82C4F94E6000A25EC /* Store.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5AC632F72C4F94E6000A25EC /* Store.swift */; };
+		5AC632FA2C4F94F2000A25EC /* Action.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5AC632F92C4F94F2000A25EC /* Action.swift */; };
+		5AC632FC2C4F9500000A25EC /* Reducer.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5AC632FB2C4F9500000A25EC /* Reducer.swift */; };
+		5AC632FE2C4F950D000A25EC /* Middleware.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5AC632FD2C4F950D000A25EC /* Middleware.swift */; };
+		5AC633002C4F95A1000A25EC /* ProductsModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5AC632FF2C4F95A1000A25EC /* ProductsModel.swift */; };
+		5AC633022C4F988D000A25EC /* ApiNetwork.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5AC633012C4F988D000A25EC /* ApiNetwork.swift */; };
+		5AC633062C4F9D4F000A25EC /* ProductsTVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5AC633052C4F9D4F000A25EC /* ProductsTVC.swift */; };
 		B4C09C2A94D127B95D9861D7 /* Pods_ReduxLearning.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6FC4E750DF798815D91208BA /* Pods_ReduxLearning.framework */; };
 		E3F0F9B47484AE23A491038A /* Pods_ReduxLearning_ReduxLearningUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9B967047ADEE36DA75CDB8A2 /* Pods_ReduxLearning_ReduxLearningUITests.framework */; };
 /* End PBXBuildFile section */
@@ -63,12 +65,14 @@
 		5A03981E2C47D2960051FDC1 /* ReduxLearningUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ReduxLearningUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		5A0398222C47D2960051FDC1 /* ReduxLearningUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ReduxLearningUITests.swift; sourceTree = "<group>"; };
 		5A0398242C47D2960051FDC1 /* ReduxLearningUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ReduxLearningUITestsLaunchTests.swift; sourceTree = "<group>"; };
-		5A0398322C47D36D0051FDC1 /* State.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = State.swift; sourceTree = "<group>"; };
-		5A0398342C47D3740051FDC1 /* Store.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Store.swift; sourceTree = "<group>"; };
-		5A0398362C47D3800051FDC1 /* Action.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Action.swift; sourceTree = "<group>"; };
-		5A0398382C47D38E0051FDC1 /* Reducer.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Reducer.swift; sourceTree = "<group>"; };
-		5A03983D2C47D3FE0051FDC1 /* Appetizer.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Appetizer.swift; sourceTree = "<group>"; };
-		5A3D966C2C4B92F500C231A2 /* AppMiddleware.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppMiddleware.swift; sourceTree = "<group>"; };
+		5AC632F52C4F94DD000A25EC /* State.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = State.swift; sourceTree = "<group>"; };
+		5AC632F72C4F94E6000A25EC /* Store.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Store.swift; sourceTree = "<group>"; };
+		5AC632F92C4F94F2000A25EC /* Action.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Action.swift; sourceTree = "<group>"; };
+		5AC632FB2C4F9500000A25EC /* Reducer.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Reducer.swift; sourceTree = "<group>"; };
+		5AC632FD2C4F950D000A25EC /* Middleware.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Middleware.swift; sourceTree = "<group>"; };
+		5AC632FF2C4F95A1000A25EC /* ProductsModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProductsModel.swift; sourceTree = "<group>"; };
+		5AC633012C4F988D000A25EC /* ApiNetwork.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ApiNetwork.swift; sourceTree = "<group>"; };
+		5AC633052C4F9D4F000A25EC /* ProductsTVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProductsTVC.swift; sourceTree = "<group>"; };
 		60B0BBA8714CE30539EE24FC /* Pods-ReduxLearning.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ReduxLearning.debug.xcconfig"; path = "Target Support Files/Pods-ReduxLearning/Pods-ReduxLearning.debug.xcconfig"; sourceTree = "<group>"; };
 		6FC4E750DF798815D91208BA /* Pods_ReduxLearning.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_ReduxLearning.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		9B967047ADEE36DA75CDB8A2 /* Pods_ReduxLearning_ReduxLearningUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_ReduxLearning_ReduxLearningUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -128,11 +132,12 @@
 		5A0398002C47D2940051FDC1 /* ReduxLearning */ = {
 			isa = PBXGroup;
 			children = (
-				5A0398312C47D3420051FDC1 /* Redux */,
-				5A03983C2C47D3C40051FDC1 /* Model */,
+				5AC632F42C4F94CE000A25EC /* Redux */,
+				5AC633072C4FA123000A25EC /* Helper */,
+				5AC633082C4FA137000A25EC /* Model */,
+				5AC633032C4F9D24000A25EC /* ViewController */,
 				5A0398012C47D2940051FDC1 /* AppDelegate.swift */,
 				5A0398032C47D2940051FDC1 /* SceneDelegate.swift */,
-				5A0398052C47D2940051FDC1 /* ViewController.swift */,
 				5A0398072C47D2940051FDC1 /* Main.storyboard */,
 				5A03980A2C47D2960051FDC1 /* Assets.xcassets */,
 				5A03980C2C47D2960051FDC1 /* LaunchScreen.storyboard */,
@@ -158,22 +163,47 @@
 			path = ReduxLearningUITests;
 			sourceTree = "<group>";
 		};
-		5A0398312C47D3420051FDC1 /* Redux */ = {
+		5AC632F42C4F94CE000A25EC /* Redux */ = {
 			isa = PBXGroup;
 			children = (
-				5A0398322C47D36D0051FDC1 /* State.swift */,
-				5A0398362C47D3800051FDC1 /* Action.swift */,
-				5A0398382C47D38E0051FDC1 /* Reducer.swift */,
-				5A3D966C2C4B92F500C231A2 /* AppMiddleware.swift */,
-				5A0398342C47D3740051FDC1 /* Store.swift */,
+				5AC632F52C4F94DD000A25EC /* State.swift */,
+				5AC632F92C4F94F2000A25EC /* Action.swift */,
+				5AC632FB2C4F9500000A25EC /* Reducer.swift */,
+				5AC632FD2C4F950D000A25EC /* Middleware.swift */,
+				5AC632F72C4F94E6000A25EC /* Store.swift */,
 			);
 			path = Redux;
 			sourceTree = "<group>";
 		};
-		5A03983C2C47D3C40051FDC1 /* Model */ = {
+		5AC633032C4F9D24000A25EC /* ViewController */ = {
 			isa = PBXGroup;
 			children = (
-				5A03983D2C47D3FE0051FDC1 /* Appetizer.swift */,
+				5AC633042C4F9D3A000A25EC /* ProductsVC */,
+			);
+			path = ViewController;
+			sourceTree = "<group>";
+		};
+		5AC633042C4F9D3A000A25EC /* ProductsVC */ = {
+			isa = PBXGroup;
+			children = (
+				5A0398052C47D2940051FDC1 /* ViewController.swift */,
+				5AC633052C4F9D4F000A25EC /* ProductsTVC.swift */,
+			);
+			path = ProductsVC;
+			sourceTree = "<group>";
+		};
+		5AC633072C4FA123000A25EC /* Helper */ = {
+			isa = PBXGroup;
+			children = (
+				5AC633012C4F988D000A25EC /* ApiNetwork.swift */,
+			);
+			path = Helper;
+			sourceTree = "<group>";
+		};
+		5AC633082C4FA137000A25EC /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				5AC632FF2C4F95A1000A25EC /* ProductsModel.swift */,
 			);
 			path = Model;
 			sourceTree = "<group>";
@@ -440,15 +470,17 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				5A0398352C47D3740051FDC1 /* Store.swift in Sources */,
-				5A0398372C47D3800051FDC1 /* Action.swift in Sources */,
+				5AC632F82C4F94E6000A25EC /* Store.swift in Sources */,
+				5AC633002C4F95A1000A25EC /* ProductsModel.swift in Sources */,
+				5AC633062C4F9D4F000A25EC /* ProductsTVC.swift in Sources */,
+				5AC632FE2C4F950D000A25EC /* Middleware.swift in Sources */,
+				5AC633022C4F988D000A25EC /* ApiNetwork.swift in Sources */,
+				5AC632FA2C4F94F2000A25EC /* Action.swift in Sources */,
 				5A0398062C47D2940051FDC1 /* ViewController.swift in Sources */,
 				5A0398022C47D2940051FDC1 /* AppDelegate.swift in Sources */,
-				5A0398392C47D38E0051FDC1 /* Reducer.swift in Sources */,
-				5A03983E2C47D3FE0051FDC1 /* Appetizer.swift in Sources */,
+				5AC632FC2C4F9500000A25EC /* Reducer.swift in Sources */,
 				5A0398042C47D2940051FDC1 /* SceneDelegate.swift in Sources */,
-				5A3D966D2C4B92F500C231A2 /* AppMiddleware.swift in Sources */,
-				5A0398332C47D36D0051FDC1 /* State.swift in Sources */,
+				5AC632F62C4F94DD000A25EC /* State.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

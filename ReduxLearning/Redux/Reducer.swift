@@ -2,28 +2,20 @@
 //  Reducer.swift
 //  ReduxLearning
 //
-//  Created by Gaurav Sharma on 17/07/24.
+//  Created by Gaurav Sharma on 23/07/24.
 //
 
 import ReSwift
 
-func appReducer(action: Action, state: AppState?) -> AppState{
+func appReducer(action: Action, state: AppState?) -> AppState {
     
     var state = state ?? AppState()
     
     switch action {
         
-    case _ as IncrementAction:
+    case let action as SetupApiData:
         
-        state.counter += 1
-        
-    case _ as DecrementAction:
-        
-        state.counter -= 1
-        
-    case let action as SetupApiDataAction:
-        
-        state.apiData = action.data
+        state.products = action.data
         
     default:
         

@@ -2,20 +2,13 @@
 //  Action.swift
 //  ReduxLearning
 //
-//  Created by Gaurav Sharma on 17/07/24.
+//  Created by Gaurav Sharma on 23/07/24.
 //
 
 import ReSwift
 
-struct IncrementAction : Action {}
+struct FetchApiData: Action{}
 
-struct DecrementAction : Action {}
-
-struct SetupApiDataAction: Action {
-    
-    let data : [String]
-    
+struct SetupApiData: Action{
+    let data : [Products]?
 }
-
-struct FetchAPIDataAction: Action {}
-
